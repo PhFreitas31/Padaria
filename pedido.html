@@ -26,7 +26,15 @@
         </nav>
     </header>
     <section id="section_form">
-        <div id="txt_pedido"></div>
+        <p>Faça o seu pedido</p>
+        <form>
+            <input name="qtd" id="qtd" type="number" min="1" max="100"placeholder="Digite a quantidade" required>
+            <input name="endereco" id="endereco" type="text" placeholder="Informe o endereço" required/>
+            <textarea name="message" placeholder="Deixe suas observações e/ou informe pontos de referência para a entrega!"></textarea>
+
+            <input class="button" id="reset" type="reset" value="Limpar">
+            <input class="button" id="submit" name="submit" type="submit" value="Enviar">
+        </form>
         <!--<div id="txt_banner">
             <div id="txt">Faça agora seu pedido</div>
             <button>Pedir agora</button>

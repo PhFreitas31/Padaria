@@ -198,6 +198,16 @@ form input#email {
     background-image: url("../imagens/icon_msg.png");
 }
 
+form input#qtd {
+    background-image: url("../imagens/icon_pao.png");
+    background-size: 25px;
+}
+
+form input#endereco {
+    background-image: url("../imagens/icon_local.png");
+    background-size: 20px;
+}
+
 form input#reset {
     background-color: transparent;
     float: left;
