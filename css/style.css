@@ -16,7 +16,7 @@ header {
 
 
 #image_bg  {
-    background-image: url("imagens/bg.jpeg");
+    background-image: url("../imagens/bg.jpeg");
     height: 100%;
     background-position: center; /*Centralizar*/
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ nav ul li a:hover {
     font-style: bold;
 }​*/
 
-section {
+section#section_home{
     display: block;
     position: relative;
     margin: auto;
@@ -130,7 +130,7 @@ section #txt_banner button {
 
 /*CONTATO E PEDIDO */
 #image_bg_pedido, #image_bg_contato  {
-    background-image: url("imagens/bg2.jpg");
+    background-image: url("../imagens/bg2.jpg");
     height: 100%;
     background-position: center; /*Centralizar*/
     background-repeat: no-repeat;
@@ -142,6 +142,84 @@ section #txt_banner button {
 #image_bg_contato nav ul li a {
     color: #47301f;
 }
-@media all and (min-width: 550px) {
 
+#image_bg_pedido nav ul li a:hover,
+#image_bg_contato nav ul li a:hover {
+    border-bottom:2px solid #47301f;
+}
+
+section#section_form {
+    display: block;
+    position: relative;
+    width: 420px;
+    height: 720px;
+    margin: auto;
+    margin-top: 5%;
+   /* background-color: cadetblue;*/
+}
+
+section#section_form p {
+    font-size: 50px;
+    color: #47301f;
+    text-align: center;
+}
+
+form input {
+    width: 92%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #47301f;
+    padding-left: 7%;
+    margin-top: 15px;
+}
+
+form textarea {
+    display: block;
+    position: relative;
+    width: 98%;
+    height: 170px;
+    border: 2px solid #47301f;
+    margin-top: 10%;
+}
+
+form input, form textarea {
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left;
+    outline:none;
+}
+
+form input#nome {
+    background-image: url("../imagens/icon_person.png");
+}
+
+form input#email {
+    background-image: url("../imagens/icon_msg.png");
+}
+
+form input#reset {
+    background-color: transparent;
+    float: left;
+    border: 2px solid #47301f;
+    color: #47301f;
+}
+
+form input#submit {
+    background-color: #47301f;
+    color: #fff;
+    float: right;
+}
+
+form input.button {
+    display: inline-block;
+    position: relative;
+    border: none;
+    width: 49%;
+    border-radius: 10px;
+    padding: 0px;
+    margin: auto;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 14px;
 }

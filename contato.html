@@ -3,32 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Padaria Fornata</title>
-    <!-- Referência CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Referência CSS principal -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Referência CSS medias queries (responsivo) -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Referência JavaScript -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <!--Meta tag responsiva-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div id="image_bg_contato">
-    <header>
-        <div id="img">
-            <a href="index.html"><img src="imagens/logo2.png" id="logo"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pedido.html">Pedido</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <!--<div id="txt_banner">
-            <div id="txt">Faça agora seu pedido</div>
-            <button>Pedir agora</button>
-        </div>-->
-    </section>
+    <div id="image_bg_contato">
+        <header>
+            <div id="img">
+                <a href="index.html"><img src="imagens/logo2.png" id="logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pedido.html">Pedido</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="section_form">
+            <p>Nos envie uma mensagem</p>
+            <div id="txt_contato"></div>
+            <form>
+                <input name="name" id="nome" placeholder="Informe seu nome" required>
+                <input name="email" id="email" type="email" placeholder="Informe seu e-mail" required/>
+                <textarea name="message" placeholder="Entre em contato conosco, responderemos em menos de 24 horas!"></textarea>
+
+                <input class="button" id="reset" type="reset" value="Limpar">
+                <input class="button" id="submit" name="submit" type="submit" value="Enviar">
+            </form>
+            <!--<div id="txt_banner">
+                <div id="txt">Faça agora seu pedido</div>
+                <button>Pedir agora</button>
+            </div>-->
+        </section>
 </div>
 </body>
 </html>
