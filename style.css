@@ -127,6 +127,21 @@ section #txt_banner button {
     font-size: 12pt;
 }
 
+
+/*CONTATO E PEDIDO */
+#image_bg_pedido, #image_bg_contato  {
+    background-image: url("imagens/bg2.jpg");
+    height: 100%;
+    background-position: center; /*Centralizar*/
+    background-repeat: no-repeat;
+    background-size: cover; /*Redimensionar a imagem*/
+    margin: 0px;
+}
+
+#image_bg_pedido nav ul li a,
+#image_bg_contato nav ul li a {
+    color: #47301f;
+}
 @media all and (min-width: 550px) {
 
 }
