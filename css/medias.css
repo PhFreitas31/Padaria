@@ -48,5 +48,10 @@
         display: block;
         float: none;
         margin: auto;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
     }
 }
