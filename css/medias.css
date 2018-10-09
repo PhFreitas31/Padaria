@@ -43,14 +43,15 @@
         display: block;
         float: none;
         margin: auto;
+        left: 0px;
+        padding: 0px;
     }
     header nav {
         display: block;
         float: none;
         margin: auto;
-        width: 100%;
+        width: 98%;
     }
-
     header {
         width: 100%;
     }
